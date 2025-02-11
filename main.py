@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # Flask API endpoint
-api_url = 'http://127.0.0.1:5000/ldata'
+api_url = 'https://server-omega-tan-51.vercel.app/data'
 
 # Fetch data from Flask API
 response = requests.get(api_url)

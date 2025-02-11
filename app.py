@@ -3,7 +3,7 @@ import requests
 
 st.title("Flood Detector App Dashboard")
 
-FLASK_SERVER_URL = "http://127.0.0.1:5000/data"
+FLASK_SERVER_URL = "https://server-omega-tan-51.vercel.app/data"
 
 # fetching data from the Flask app
 def fetch_data():
